@@ -148,8 +148,3 @@ AirbubDa.ipynb
 
 ---
 
-## Author
-
-### Samridhi Gupta
-
-* GitHub: https://github.com/samgupta221
