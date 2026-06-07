@@ -183,7 +183,7 @@ The insights generated from this analysis can help Airbnb:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Airbnb-Data-Analysis.git
+https://github.com/samgupta221/Airbnb-Data-Analysis.git
 ```
 
 2. Install dependencies
