@@ -1,4 +1,4 @@
-# 🏠 Airbnb Data Analysis Project
+# Airbnb Data Analysis Project
 
 ## 📌 Project Overview
 
