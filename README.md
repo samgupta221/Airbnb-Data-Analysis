@@ -209,15 +209,15 @@ AirbubDa.ipynb
 ---
 
 ## 📷 Sample Visualizations
-* Distribution of Listing Prices
+### Distribution of Listing Prices
  <img width="1174" height="686" alt="price_distribution png" src="https://github.com/user-attachments/assets/d7898f7a-ac93-458a-944f-2d9262b10043" />
-* Room Type Distribution
+### Room Type Distribution
 <img width="970" height="584" alt="room_type_distribution png" src="https://github.com/user-attachments/assets/c0079603-8655-4579-9ba1-f3b3f7620a70" />
-* Neighborhood Analysis
+### Neighborhood Analysis
  <img width="1380" height="834" alt="neighborhood_distribution png" src="https://github.com/user-attachments/assets/749c7e36-6b33-40fc-900c-98b52d8468ee" />
-* Price vs Room Type Comparison
+### Price vs Room Type Comparison
  <img width="1172" height="691" alt="price_vs_room_type png" src="https://github.com/user-attachments/assets/d13b3d46-6d64-48da-b9fa-465e5bad22dc" />
-* Reviews Trend Analysis
+### Reviews Trend Analysis
 <img width="1358" height="685" alt="reviews_over_time png" src="https://github.com/user-attachments/assets/0447c6d2-c177-4d15-89b0-51315b5940b5" />
 
  ---
