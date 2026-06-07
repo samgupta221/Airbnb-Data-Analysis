@@ -1,4 +1,4 @@
-<img width="1174" height="686" alt="image" src="https://github.com/user-attachments/assets/beafc134-e7c5-4c2b-b6da-01bbb69b2db5" /># Airbnb Data Analysis Project
+# Airbnb Data Analysis Project
 
 ## 📌 Project Overview
 
