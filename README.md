@@ -209,21 +209,9 @@ AirbubDa.ipynb
 ---
 
 ## 📷 Sample Visualizations
-
-# 📷 Sample Visualizations
-
-## 📊 Distribution of Listing Prices
-![Distribution of Listing Prices](images/price_distribution.png)
-
-## 🏠 Room Type Distribution
-![Room Type Distribution](images/room_type_distribution.png)
-
-## 📍 Listings by Neighborhood Group
-![Neighborhood Distribution](images/neighborhood_distribution.png)
-
-## 💰 Price vs Room Type
-![Price vs Room Type](images/price_vs_room_type.png)
-
-## ⭐ Reviews Over Time
-![Reviews Over Time](images/reviews_over_time.png)
-
+* Distribution of Listing Prices
+* Room Type Distribution
+* Neighborhood Analysis 
+* Price vs Room Type Comparison 
+* Reviews Trend Analysis
+ ---
