@@ -1,33 +1,24 @@
-# Airbnb Open Data Analysis
+# 🏠 Airbnb Data Analysis Project
 
-## Overview
+## 📌 Project Overview
 
-This project focuses on analyzing Airbnb listing data using Python for data cleaning, exploratory data analysis (EDA), and visualization.
-The project provides insights into pricing trends, room type distribution, neighborhood popularity, and customer review patterns.
+This project focuses on performing **Exploratory Data Analysis (EDA)** on Airbnb listing data to uncover meaningful business insights that can help Airbnb optimize pricing strategies, understand customer preferences, and identify high-performing neighborhoods.
 
----
-
-## Dataset Information
-
-* Dataset: Airbnb Open Data
-* Total Records: 100,000+ listings
-* Total Features: 24+ columns
-* File Format: CSV / GZ
-
-### Dataset Includes:
-
-* Listing details
-* Host information
-* Room type
-* Prices and service fees
-* Reviews and ratings
-* Neighborhood groups
-* Availability data
-* Booking information
+Using Python, Pandas, Matplotlib, and Seaborn, the dataset was cleaned, transformed, and visualized to answer key business questions related to listing prices, room types, neighborhood distribution, and customer reviews.
 
 ---
 
-## Technologies Used
+## 🎯 Business Questions Addressed
+
+* What is the distribution of Airbnb listing prices?
+* How are different room types distributed?
+* How are listings distributed across neighborhoods?
+* What is the relationship between price and room type?
+* How has the number of reviews changed over time?
+
+---
+
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -38,113 +29,192 @@ The project provides insights into pricing trends, room type distribution, neigh
 
 ---
 
-## Project Workflow
+## 📂 Dataset Information
 
-### 1. Data Cleaning
+The dataset contains Airbnb listing information, including:
 
-* Handled missing values
-* Removed duplicate records
-* Converted incorrect data types
-* Cleaned price and service fee columns
-* Formatted datetime values
-
-### 2. Exploratory Data Analysis (EDA)
-
-Performed analysis on:
-
-* Listing prices
-* Room type distribution
-* Neighborhood popularity
-* Price comparison by room type
-* Review activity over time
-
-### 3. Data Visualization
-
-Created multiple visualizations including:
-
-* Histograms
-* Count plots
-* Box plots
-* Line charts
+* Listing Name
+* Host Name
+* Room Type
+* Price
+* Service Fee
+* Neighborhood Group
+* Number of Reviews
+* Reviews Per Month
+* Last Review Date
+* Availability Information
 
 ---
 
-## Key Insights
+## 🧹 Data Cleaning Process
 
-* Manhattan and Brooklyn had the highest number of Airbnb listings.
-* Entire home/apartment and private rooms were the most popular room types.
-* Shared rooms generally had lower pricing compared to other room categories.
-* Review trends showed spikes during specific periods, indicating seasonal engagement patterns.
+The following preprocessing steps were performed:
+
+### 1. Missing Value Handling
+
+* Converted `last review` column to datetime format.
+* Filled missing values in:
+
+  * `reviews per month` → 0
+  * `last review` → earliest available review date
+* Removed records with missing listing names and host names.
+
+### 2. Data Type Conversion
+
+* Removed `$` symbols from:
+
+  * Price
+  * Service Fee
+* Converted them into numeric format.
+
+### 3. Duplicate Removal
+
+* Removed duplicate records to improve data quality.
+
+### 4. Feature Selection
+
+* Dropped irrelevant columns:
+
+  * `license`
+  * `house_rules`
 
 ---
 
-## Features
+## 📊 Exploratory Data Analysis
 
-* Data preprocessing and cleaning
-* Statistical analysis
-* Trend identification
-* Data visualization
-* Airbnb market insights
+### 1️⃣ Distribution of Listing Prices
+
+**Objective:** Understand pricing patterns across Airbnb listings.
+
+**Visualization:** Histogram with KDE curve
+
+**Insights:**
+
+* Most listings fall within a lower-to-mid price range.
+* A small number of premium listings create a right-skewed distribution.
+* Pricing outliers are present.
 
 ---
 
-## Project Structure
+### 2️⃣ Room Type Distribution
+
+**Objective:** Identify the most common accommodation types.
+
+**Visualization:** Count Plot
+
+**Insights:**
+
+* Entire homes/apartments dominate the platform.
+* Private rooms form a significant portion of listings.
+* Shared rooms have the lowest availability.
+
+---
+
+### 3️⃣ Neighborhood Analysis
+
+**Objective:** Discover which neighborhoods have the highest number of listings.
+
+**Visualization:** Horizontal Count Plot
+
+**Insights:**
+
+* Certain neighborhood groups contribute a majority of listings.
+* High-density listing areas indicate stronger Airbnb activity.
+* Useful for market expansion and promotional campaigns.
+
+---
+
+### 4️⃣ Price vs Room Type Analysis
+
+**Objective:** Compare pricing across room categories.
+
+**Visualization:** Box Plot
+
+**Insights:**
+
+* Entire homes/apartments generally command higher prices.
+* Private rooms offer more affordable options.
+* Significant price variation exists within each room type.
+
+---
+
+### 5️⃣ Reviews Over Time
+
+**Objective:** Analyze customer engagement trends.
+
+**Visualization:** Line Chart
+
+**Insights:**
+
+* Reviews fluctuate over time.
+* Peaks indicate periods of increased bookings and activity.
+* Useful for understanding seasonality and demand patterns.
+
+---
+
+## 📈 Key Findings
+
+✔ Airbnb pricing is heavily skewed toward lower-priced listings.
+
+✔ Entire homes/apartments are the most popular listing type.
+
+✔ Some neighborhoods significantly outperform others in listing volume.
+
+✔ Room type strongly influences pricing.
+
+✔ Customer engagement trends can be tracked effectively through review activity over time.
+
+---
+
+## 🚀 Business Impact
+
+The insights generated from this analysis can help Airbnb:
+
+* Optimize pricing strategies.
+* Improve market segmentation.
+* Identify high-demand neighborhoods.
+* Enhance customer experience.
+* Support data-driven business growth decisions.
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
 
 ```bash
-AirBUB_dataanalysis/
-│
-├── AirbubDa.ipynb
-├── compressed_data.csv.gz
-├── README.md
+git clone https://github.com/yourusername/Airbnb-Data-Analysis.git
 ```
 
----
-
-## How to Run
-
-### 1. Clone the Repository
+2. Install dependencies
 
 ```bash
-git clone https://github.com/your-username/AirBUB_dataanalysis.git
+pip install pandas matplotlib seaborn
 ```
 
-### 2. Install Required Libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-### 3. Open Jupyter Notebook
+3. Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
-### 4. Run the Notebook
-
-Open and execute:
+4. Open:
 
 ```bash
 AirbubDa.ipynb
 ```
 
+5. Run all cells.
+
 ---
 
-## Sample Analysis Performed
+## 📷 Sample Visualizations
 
 * Distribution of Listing Prices
-* Room Type Analysis
+* Room Type Distribution
 * Neighborhood Analysis
 * Price vs Room Type Comparison
-* Reviews Over Time Analysis
-
----
-
-## Future Improvements
-
-* Build an interactive dashboard using Power BI or Tableau
-* Add machine learning models for price prediction
-* Deploy as a web-based analytics application
+* Reviews Trend Analysis
 
 ---
 
