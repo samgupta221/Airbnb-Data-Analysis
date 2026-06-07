@@ -210,42 +210,20 @@ AirbubDa.ipynb
 
 ## 📷 Sample Visualizations
 
-## 📊 1. Distribution of Listing Prices
+# 📷 Sample Visualizations
 
-This histogram shows the distribution of Airbnb listing prices.
-
+## 📊 Distribution of Listing Prices
 ![Distribution of Listing Prices](images/price_distribution.png)
 
----
-
-## 🏠 2. Room Type Distribution
-
-This chart displays the count of different room types available on Airbnb.
-
+## 🏠 Room Type Distribution
 ![Room Type Distribution](images/room_type_distribution.png)
 
----
-
-## 📍 3. Listings by Neighborhood Group
-
-This visualization highlights the neighborhoods with the highest number of listings.
-
+## 📍 Listings by Neighborhood Group
 ![Neighborhood Distribution](images/neighborhood_distribution.png)
 
----
-
-## 💰 4. Price vs Room Type
-
-This boxplot compares price variations across room types.
-
+## 💰 Price vs Room Type
 ![Price vs Room Type](images/price_vs_room_type.png)
 
----
-
-## ⭐ 5. Number of Reviews Over Time
-
-This trend analysis shows how customer reviews changed over time.
-
+## ⭐ Reviews Over Time
 ![Reviews Over Time](images/reviews_over_time.png)
----
 
