@@ -6,6 +6,8 @@ This project focuses on performing **Exploratory Data Analysis (EDA)** on Airbnb
 
 Using Python, Pandas, Matplotlib, and Seaborn, the dataset was cleaned, transformed, and visualized to answer key business questions related to listing prices, room types, neighborhood distribution, and customer reviews.
 
+<img width="1400" height="935" alt="image" src="https://github.com/user-attachments/assets/225cc186-c090-48c9-8839-e21404bd759d" />
+
 ---
 
 ## 🎯 Business Questions Addressed
