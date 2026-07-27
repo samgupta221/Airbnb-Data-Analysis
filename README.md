@@ -178,36 +178,6 @@ The insights generated from this analysis can help Airbnb:
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repository
-
-```bash
-https://github.com/samgupta221/Airbnb-Data-Analysis.git
-```
-
-2. Install dependencies
-
-```bash
-pip install pandas matplotlib seaborn
-```
-
-3. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-4. Open:
-
-```bash
-AirbubDa.ipynb
-```
-
-5. Run all cells.
-
----
-
 ## 📷 Sample Visualizations
 * Distribution of Listing Prices
  <img width="1174" height="686" alt="price_distribution png" src="https://github.com/user-attachments/assets/d7898f7a-ac93-458a-944f-2d9262b10043" />
